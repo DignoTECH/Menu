@@ -9,25 +9,48 @@ body{
     border-radius: 20px;
     background-color: white;
     color:black;
-    border: 2px grey solid;
-    box-shadow: inset;
-    position: relative;
+    border: 2px rgb(223, 220, 220) solid;
+    
+    
     /* opacity: 0.5; */
-    z-index: 1000;
-}
-.header{
    
+}
+
+.header{
+    
+
     display: flex;
     justify-content: center;
     align-items: center;
+   
     height: 100vh;
     width: 100%;
+    background: linear-gradient(120deg,rgb(172, 245, 250), rgb(165, 243, 200));
 }
 .title{
+   
     font-size: 60px;
     font-family: 'Potta One', cursive;
+    font-weight: bold;
+    color:linear-gradient(90deg,rgb(2, 223, 223),rgb(4, 224, 4));
    
 }
 .accordion{
     margin-bottom: 30px;
+}
+.accordion-button{
+    background: linear-gradient(90deg,rgb(140, 241, 241),rgb(95, 218, 95));
+    color:rgb(5, 39, 5);
+    font-size: 20px;
+    border-color: linear-gradient(0deg,green,aqua);
+}
+button.accordion-button[aria-expanded="true"]{
+    color:rgb(5, 39, 5);
+}
+@media screen and (max-width:400px){
+    body{
+    margin-left: 5px;
+    margin-right: 5px;
+    }
+
 }
