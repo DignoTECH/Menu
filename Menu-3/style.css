@@ -4,13 +4,13 @@ body{
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
    
 }
-section{
+.header, .body{
     margin-top: 20px;
     /* margin-bottom: 20px; */
-    border-radius: 20px;
+    
     background-color: rgba(255, 255, 255, 0.2);
     color:black;
-    border-radius: 3em;
+    border-radius: 1em;
     border: solid 2px transparent;
     backdrop-filter: blur(40px);
     /* padding: 10px; */
@@ -23,6 +23,21 @@ section{
 .body{
     padding: 20px 20px;
     
+}
+
+.footer{
+margin: 0;
+padding:0;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+background-color: rgba(255, 255, 255, 0.2);
+
+    backdrop-filter: blur(40px);
+    /* padding: 10px; */
+    background-clip: padding-box;
+
 }
 
 .header{
