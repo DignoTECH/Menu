@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
 body{
-    background: linear-gradient(45deg,aqua,green);
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
    
 }
 section{
@@ -38,16 +39,22 @@ section{
     font-size: 60px;
     font-family: 'Potta One', cursive;
     font-weight: bold;
-    color:rgba(38, 49, 43, 0.644);
+    color:rgba(255, 255, 255, 0.836);
    
 }
 .col-9, .col-3, .cat-name{
     color: white;
     font-weight: bold;
 }
+.col-lg-6{
+    margin-bottom:10px;
+}
 .cat-name{
     
+    align-items: center;
     border-bottom: white 1px solid;
+    margin-bottom: 10px;
+    font-size: 18px;
 }
 .col-3{
     display:flex;
