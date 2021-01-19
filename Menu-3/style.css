@@ -3,21 +3,25 @@ body{
     background: linear-gradient(45deg,aqua,green);
    
 }
-.container{
+section{
     margin-top: 20px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.2);
     color:black;
     border-radius: 3em;
     border: solid 2px transparent;
     backdrop-filter: blur(40px);
-    padding: 10px;
+    /* padding: 10px; */
     background-clip: padding-box;
     box-shadow: 10px 10px 10px rgb(46, 54, 68,0.03);
     
     /* opacity: 0.5; */
    
+}
+.body{
+    padding: 20px 20px;
+
 }
 
 .header{
@@ -34,8 +38,20 @@ body{
     font-size: 60px;
     font-family: 'Potta One', cursive;
     font-weight: bold;
-    color:linear-gradient(90deg,rgb(2, 223, 223),rgb(4, 224, 4));
+    color:rgba(38, 49, 43, 0.644);
    
+}
+.col-9, .col-3, .cat-name{
+    color: white;
+    font-weight: bold;
+}
+.cat-name{
+    
+    border-bottom: white 1px solid;
+}
+.col-3{
+    display:flex;
+    justify-content: flex-end;
 }
 .accordion{
     margin-bottom: 30px;
