@@ -71,7 +71,7 @@ section{
 button.accordion-button[aria-expanded="true"]{
     color:rgb(5, 39, 5);
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:500px){
     body{
     margin-left: 5px;
     margin-right: 5px;
