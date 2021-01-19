@@ -71,6 +71,19 @@ section{
 button.accordion-button[aria-expanded="true"]{
     color:rgb(5, 39, 5);
 }
+.footer .col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    
+}
+h3{
+    font-family: 'Potta One', cursive;
+    font-weight: bold;
+    /* color: white; */
+}
 @media screen and (max-width:500px){
     body{
     margin-left: 5px;
