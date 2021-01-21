@@ -4,15 +4,33 @@ body{
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
    
 }
-.header, .body{
+/* .cir{
+    background-color: rgba(122, 253, 247, 0.966);
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    border-radius: 50%;
+    top:50px;
+    left: 50px;
+}
+.cir2{
+    background-color: rgb(71, 71, 233);
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    border-radius: 50%;
+    top:350px;
+    right: -50px;
+} */
+.header, .body ,.about-us{
     margin-top: 20px;
     /* margin-bottom: 20px; */
     
     background-color: rgba(255, 255, 255, 0.2);
     color:black;
-    border-radius: 1em;
+    border-radius: 0.5em;
     border: solid 2px transparent;
-    backdrop-filter: blur(40px);
+    backdrop-filter: blur(10px);
     /* padding: 10px; */
     background-clip: padding-box;
     box-shadow: 10px 10px 10px rgb(46, 54, 68,0.03);
@@ -20,21 +38,23 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
     /* opacity: 0.5; */
    
 }
-.body{
+.body, .about-us{
     padding: 20px 20px;
+    margin-bottom: 30px;
+    color:white;
     
 }
 
 .footer{
 margin: 0;
-padding:0;
+padding:10px;
 display: flex;
 justify-content: center;
 align-items: center;
 width: 100%;
 background-color: rgba(255, 255, 255, 0.2);
 
-    backdrop-filter: blur(40px);
+    backdrop-filter: blur(10px);
     /* padding: 10px; */
     background-clip: padding-box;
 
@@ -75,16 +95,14 @@ background-color: rgba(255, 255, 255, 0.2);
     display:flex;
     justify-content: flex-end;
 }
-.accordion{
-    margin-bottom: 30px;
-}
+
 .accordion-button{
     background: rgba(255, 255, 255, 0.74);
-    color:rgb(5, 39, 5);
+    color:rgb(0, 0, 0);
     font-size: 20px;
 }
 button.accordion-button[aria-expanded="true"]{
-    color:rgb(5, 39, 5);
+    color:rgb(0, 0, 0);
 }
 .footer .col{
     display: flex;
